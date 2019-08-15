@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is not matched]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is matched]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is not matched]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is matched]]>
+    </line>
+  </reporter-output>
+  <suite name="Amazon Project" duration-ms="70152" started-at="2019-08-15T05:57:09Z" finished-at="2019-08-15T05:58:19Z">
+    <groups>
+    </groups>
+    <test name="Chrome SIT Test" duration-ms="70152" started-at="2019-08-15T05:57:09Z" finished-at="2019-08-15T05:58:19Z">
+      <class name="in.amazon.selenium.testcases.TC003">
+        <test-method status="PASS" signature="config(java.lang.String)" name="config" is-config="true" duration-ms="1" started-at="2019-08-15T05:58:00Z" finished-at="2019-08-15T05:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="TC003(java.lang.String)" name="TC003" duration-ms="19563" started-at="2019-08-15T05:58:00Z" finished-at="2019-08-15T05:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="configend()" name="configend" is-config="true" duration-ms="60" started-at="2019-08-15T05:58:19Z" finished-at="2019-08-15T05:58:19Z">
+        </test-method>
+      </class>
+      <class name="in.amazon.selenium.testcases.TC001">
+        <test-method status="PASS" signature="Report()" name="Report" is-config="true" duration-ms="437" started-at="2019-08-15T05:57:09Z" finished-at="2019-08-15T05:57:09Z">
+        </test-method>
+        <test-method status="PASS" signature="Report()" name="Report" is-config="true" duration-ms="3" started-at="2019-08-15T05:57:09Z" finished-at="2019-08-15T05:57:09Z">
+        </test-method>
+        <test-method status="PASS" signature="config(java.lang.String)" name="config" is-config="true" duration-ms="3" started-at="2019-08-15T05:57:09Z" finished-at="2019-08-15T05:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="TC001(java.lang.String)" name="TC001" duration-ms="50070" started-at="2019-08-15T05:57:09Z" finished-at="2019-08-15T05:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="configend()" name="configend" is-config="true" duration-ms="450" started-at="2019-08-15T05:57:59Z" finished-at="2019-08-15T05:58:00Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

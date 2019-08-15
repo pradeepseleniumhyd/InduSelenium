@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is not matched]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is matched]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is not matched]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is matched]]>
+    </line>
+  </reporter-output>
+  <suite name="Amazon Project" duration-ms="62013" started-at="2019-08-14T00:12:44Z" finished-at="2019-08-14T00:13:46Z">
+    <groups>
+    </groups>
+    <test name="Chrome SIT Test" duration-ms="62013" started-at="2019-08-14T00:12:44Z" finished-at="2019-08-14T00:13:46Z">
+      <class name="in.amazon.selenium.testcases.TC003">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:in.amazon.selenium.testcases.TC003@5cb137]" name="config" is-config="true" duration-ms="1" started-at="2019-08-14T05:43:27Z" finished-at="2019-08-14T05:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="TC003(java.lang.String)[pri:0, instance:in.amazon.selenium.testcases.TC003@5cb137]" name="TC003" duration-ms="19177" started-at="2019-08-14T05:43:27Z" finished-at="2019-08-14T05:43:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is not matched]]>
+            </line>
+            <line>
+              <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC003 -->
+        <test-method status="PASS" signature="configend()[pri:0, instance:in.amazon.selenium.testcases.TC003@5cb137]" name="configend" is-config="true" duration-ms="68" started-at="2019-08-14T05:43:46Z" finished-at="2019-08-14T05:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configend -->
+      </class> <!-- in.amazon.selenium.testcases.TC003 -->
+      <class name="in.amazon.selenium.testcases.TC001">
+        <test-method status="PASS" signature="Report()[pri:0, instance:in.amazon.selenium.testcases.TC001@4f787b]" name="Report" is-config="true" duration-ms="715" started-at="2019-08-14T05:42:44Z" finished-at="2019-08-14T05:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+        <test-method status="PASS" signature="Report()[pri:0, instance:in.amazon.selenium.testcases.TC003@5cb137]" name="Report" is-config="true" duration-ms="5" started-at="2019-08-14T05:42:44Z" finished-at="2019-08-14T05:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:in.amazon.selenium.testcases.TC001@4f787b]" name="config" is-config="true" duration-ms="23" started-at="2019-08-14T05:42:44Z" finished-at="2019-08-14T05:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="TC001(java.lang.String)[pri:0, instance:in.amazon.selenium.testcases.TC001@4f787b]" name="TC001" duration-ms="41997" started-at="2019-08-14T05:42:44Z" finished-at="2019-08-14T05:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is not matched]]>
+            </line>
+            <line>
+              <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in is matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="configend()[pri:0, instance:in.amazon.selenium.testcases.TC001@4f787b]" name="configend" is-config="true" duration-ms="618" started-at="2019-08-14T05:43:26Z" finished-at="2019-08-14T05:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configend -->
+      </class> <!-- in.amazon.selenium.testcases.TC001 -->
+    </test> <!-- Chrome SIT Test -->
+  </suite> <!-- Amazon Project -->
+</testng-results>
